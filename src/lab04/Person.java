@@ -33,8 +33,12 @@ public class Person {
         this.name = name;
         this.age = age;
         this.gender = gender;
-
     }
 
+    @Override
+    public String toString() {
+        StringBuilder response = new StringBuilder();
+        return response.toString();
+    }
 
 }
